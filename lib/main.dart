@@ -1,3 +1,4 @@
+import 'package:catelog_application/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -7,14 +8,10 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Flutter Developer"),
-          ),
-        ),
-      ),
-    );
+    // Data types
+
+    
+
+    return MaterialApp(home: HomePage());
   }
 }
