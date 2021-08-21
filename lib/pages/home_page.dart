@@ -1,6 +1,8 @@
 import 'package:catelog_application/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
+// We will learn Context, constraints
+
 class HomePage extends StatelessWidget {
   final String name = "Junior";
   final int days = 20;

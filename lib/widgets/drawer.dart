@@ -21,7 +21,7 @@ class MyDrawer extends StatelessWidget {
                   "MD IMTIYAZ",
                   textScaleFactor: 1.6,
                 ),
-                accountEmail: Text(
+                accountEmail: Text( 
                   "imtiyazmd803@gmail.com",
                   textScaleFactor: 1.6,
                 ),

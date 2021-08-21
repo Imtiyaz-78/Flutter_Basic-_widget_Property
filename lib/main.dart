@@ -18,6 +18,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         fontFamily: GoogleFonts.lato().fontFamily,
+        appBarTheme: AppBarTheme(
+          color: Colors.white,
+          elevation: 0.0,
+          iconTheme: IconThemeData(
+            color: Colors.black,
+          ),
+          textTheme: Theme.of(context).textTheme,
+        ),
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
