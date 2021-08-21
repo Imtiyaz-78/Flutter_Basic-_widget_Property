@@ -1,5 +1,18 @@
+class CatalogModel {
+  static final items = [
+    Item(
+      id: 1,
+      name: "iPhone 12 Pro",
+      desc: "Apple iPhone 12 Pro",
+      price: 999,
+      color: "#33505a",
+      image: "",
+    )
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String desc;
   final num price;
@@ -11,11 +24,11 @@ class Item {
 
 final products = [
   Item(
-      id: "Codepur001",
-      name: "iphone 12 Pro",
-      desc: "Apple iphone 12 Pro",
-      price: 999,
-      color: "#33505a",
-      image: "",
-      )
+    id: 1,
+    name: "iPhone 12 Pro",
+    desc: "Apple iPhone 12 Pro",
+    price: 999,
+    color: "#33505a",
+    image: "",
+  )
 ];
